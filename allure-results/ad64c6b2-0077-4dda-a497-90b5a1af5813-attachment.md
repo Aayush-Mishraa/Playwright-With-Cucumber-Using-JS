@@ -1,0 +1,119 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e5]:
+    - generic [ref=e7]:
+      - link "Automation Automation Practice":
+        - /url: ""
+        - generic [ref=e8] [cursor=pointer]:
+          - heading "Automation" [level=3] [ref=e9]
+          - paragraph [ref=e10]: Automation Practice
+    - text: 
+    - list [ref=e11]:
+      - listitem [ref=e12] [cursor=pointer]:
+        - button " HOME" [ref=e13]:
+          - generic [ref=e14]: 
+          - text: HOME
+      - listitem
+      - listitem [ref=e15] [cursor=pointer]:
+        - button " ORDERS" [ref=e16]:
+          - generic [ref=e17]: 
+          - text: ORDERS
+      - listitem [ref=e18] [cursor=pointer]:
+        - button " Cart 1" [ref=e19]:
+          - generic [ref=e20]: 
+          - text: Cart
+          - generic [ref=e21]: "1"
+      - listitem [ref=e22] [cursor=pointer]:
+        - button "Sign Out" [ref=e23]:
+          - generic [ref=e24]: 
+          - text: Sign Out
+  - generic [ref=e27]:
+    - generic [ref=e31]:
+      - generic [ref=e32]: ZARA COAT 3
+      - generic [ref=e33]: $ 11500
+      - generic [ref=e34]: "Quantity: 1"
+      - list [ref=e36]:
+        - listitem [ref=e37]: Apple phone
+    - generic [ref=e40]:
+      - generic [ref=e41]: Payment Method
+      - generic [ref=e42]:
+        - generic [ref=e43] [cursor=pointer]: Credit Card
+        - generic [ref=e44] [cursor=pointer]: Paypal
+        - generic [ref=e45] [cursor=pointer]: SEPA
+        - generic [ref=e46] [cursor=pointer]: Invoice
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]: Personal Information
+          - generic [ref=e51]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: Credit Card Number
+              - textbox [ref=e55]: 4542 9931 9292 2293
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - generic [ref=e58]: Expiry Date
+                - combobox [ref=e59]:
+                  - option "01" [selected]
+                  - option "02"
+                  - option "03"
+                  - option "04"
+                  - option "05"
+                  - option "06"
+                  - option "07"
+                  - option "08"
+                  - option "09"
+                  - option "10"
+                  - option "11"
+                  - option "12"
+                - combobox [ref=e60]:
+                  - option "01"
+                  - option "02"
+                  - option "03"
+                  - option "04"
+                  - option "05"
+                  - option "06"
+                  - option "07"
+                  - option "08"
+                  - option "09"
+                  - option "10"
+                  - option "11"
+                  - option "12"
+                  - option "13"
+                  - option "14"
+                  - option "15"
+                  - option "16" [selected]
+                  - option "17"
+                  - option "18"
+                  - option "19"
+                  - option "20"
+                  - option "21"
+                  - option "22"
+                  - option "23"
+                  - option "24"
+                  - option "25"
+                  - option "26"
+                  - option "27"
+                  - option "28"
+                  - option "29"
+                  - option "30"
+                  - option "31"
+              - generic [ref=e61]:
+                - generic [ref=e62]: CVV Code ?
+                - textbox [ref=e63]
+            - generic [ref=e65]:
+              - generic [ref=e66]: Name on Card
+              - textbox [ref=e67]
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]: Apply Coupon
+                - textbox [ref=e71]
+              - button "Apply Coupon" [ref=e74] [cursor=pointer]
+        - generic [ref=e75]:
+          - generic [ref=e76]: Shipping Information
+          - generic [ref=e78]:
+            - generic [ref=e79]: anshika@gmail.com
+            - textbox [ref=e80]: anshika@gmail.com
+            - textbox "Select Country" [ref=e83]: India
+            - generic [ref=e85] [cursor=pointer]: Place Order
+```

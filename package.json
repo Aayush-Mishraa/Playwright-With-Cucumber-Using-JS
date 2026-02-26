@@ -1,0 +1,27 @@
+{
+  "name": "playwright-with-cucumber-using-js",
+  "version": "1.0.0",
+  "description": "Playwright + Cucumber BDD end-to-end test automation framework with POM, parallel execution, retries, screenshots on failure, Allure and HTML reporting, cross-browser support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:chromium": "BROWSER=chromium cucumber-js",
+    "test:firefox": "BROWSER=firefox cucumber-js",
+    "test:webkit": "BROWSER=webkit cucumber-js",
+    "test:parallel": "cucumber-js --parallel 3",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "report": "node scripts/generate-report.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "allure-cucumberjs": "^3.2.3",
+    "multiple-cucumber-html-reporter": "^3.9.0",
+    "playwright": "^1.50.1"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.32.0"
+  }
+}

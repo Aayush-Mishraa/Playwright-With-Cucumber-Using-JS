@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","60523","@web Login into new Applcation","","Sat Feb 21 21:48:01 IST 2026","broken","Sat Feb 21 21:49:01 IST 2026","","EndToEnd_WebAutomationPractice.spec.js","",""
-"","60515","@web Login into new Applcation","","Sat Feb 21 21:48:01 IST 2026","broken","Sat Feb 21 21:49:01 IST 2026","","EndToEndTest_UsingGetBy.spec.js","",""
-"","7764","@web Login into","","Sat Feb 21 21:48:01 IST 2026","passed","Sat Feb 21 21:48:08 IST 2026","","ClientAPP.spec.js","",""
-"","7890","@web Client App login for ayush.am77@gmail.com","","Sat Feb 21 21:49:03 IST 2026","passed","Sat Feb 21 21:49:11 IST 2026","","TestFile.spec.js","",""
-"","60551","@web Client App login for anshika@gmail.com","","Sat Feb 21 21:48:01 IST 2026","broken","Sat Feb 21 21:49:01 IST 2026","","TestFile.spec.js","",""
